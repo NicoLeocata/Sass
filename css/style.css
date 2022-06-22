@@ -1,3 +1,22 @@
 * {
   margin: 0;
   padding: 0; }
+
+.header {
+  background-color: bisque;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__img {
+    margin-left: 1rem; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul li {
+      padding: 1rem; }
+    .header__ul--active {
+      font-weight: bold; }
+
+.index {
+  background-color: black; }
