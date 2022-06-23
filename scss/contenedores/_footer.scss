@@ -1,0 +1,14 @@
+.footer {
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__img {
+        margin: 1rem;
+        width: 250px;
+    }
+    &__h3 {
+        font-size: $texto3;
+    }
+}

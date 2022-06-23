@@ -9,14 +9,40 @@
   justify-content: space-between;
   align-items: center; }
   .header__img {
-    margin-left: 1rem; }
+    margin: 1rem;
+    width: 250px; }
   .header__ul {
     display: flex;
     list-style: none; }
     .header__ul li {
-      padding: 1rem; }
+      padding: 1rem;
+      font-size: 15px; }
     .header__ul--active {
       font-weight: bold; }
 
-.index {
-  background-color: black; }
+.main {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .main__img {
+    margin: 1rem;
+    width: 500px; }
+  .main__h3 {
+    margin: 1rem;
+    color: white; }
+
+.footer {
+  background-color: bisque;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .footer__img {
+    margin: 1rem;
+    width: 250px; }
+  .footer__h3 {
+    font-size: 20px; }

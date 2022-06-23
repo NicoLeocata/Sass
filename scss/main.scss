@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+@import './variables/colores';
 @import './variables/tamaños';
 
-@import './secciones/header';
+@import './contenedores/header';
+@import './contenedores/main';
+@import './contenedores/footer';
+
 @import './secciones/index';
+
+
 
 
 
